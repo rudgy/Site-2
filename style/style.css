@@ -19,12 +19,20 @@ h1{
     font-size: 37px;
 }
 
+h2{
+    font-size: 23px;
+}
+
+h3{
+ font-size: 15px;   
+}
+
 p{
     margin: 0;
 }
 
 section{
-    padding-top: 18px;
+    padding-top: 117px;
 }
 
 
@@ -36,23 +44,24 @@ section{
 .header{
     background: url("../img/background.jpg") no-repeat center top;
     padding-top: 47px;
-    padding-bottom: 310px;
+    padding-bottom: 307px;
 }
 
 .offer{
-    margin-top: 247px;
+    margin-top: 246px;
 }
 
 .offer p{
     font-size: 20px;
+    margin-top: 10px;
 }
-.metris, photos{
+
+.metris{
     display: flex;
     justify-content: space-between;
     margin-top: 55px;
     /*margin-bottom: 100px;*/
 }
-
 .unit{
     width: 340px;
     background: url('../img/icon1.jpg') no-repeat left top;
@@ -74,6 +83,12 @@ section{
 .photos{
     margin-top: 85px;
     margin-bottom: 93px;
+}
+
+.photos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
 }
 
 .btn{
@@ -100,5 +115,16 @@ section{
     font-size: 11px;
     background: #000;
     color:#fff;
+    margin-top: 116px;
+    padding: 55px 0;
 }
+
+.footer-text{
+    display: flex;
+}
+
+.footer-item{
+    margin-right: 73px;
+}
+
 
