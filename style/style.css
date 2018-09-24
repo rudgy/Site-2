@@ -15,6 +15,10 @@ h1, h2, h3, h4, h5, h6{
     text-transform: uppercase;
 }
 
+h1{
+    font-size: 37px;
+}
+
 p{
     margin: 0;
 }
@@ -23,9 +27,7 @@ section{
     padding-top: 18px;
 }
 
-h1{
-    font-size: 37px;
-}
+
 .container{
     width: 1172px;
     margin: 0 auto;
@@ -44,3 +46,59 @@ h1{
 .offer p{
     font-size: 20px;
 }
+.metris, photos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    /*margin-bottom: 100px;*/
+}
+
+.unit{
+    width: 340px;
+    background: url('../img/icon1.jpg') no-repeat left top;
+    padding-left: 87px;
+    padding-top: 15px;
+}
+
+.unit:nth-child(2){
+    background: url('../img/icon2.jpg') no-repeat left top;
+}
+
+.unit:nth-child(3){
+    background: url('../img/icon3.jpg') no-repeat left top;
+}
+.unit h3{
+    margin-bottom: 5px;
+}
+
+.photos{
+    margin-top: 85px;
+    margin-bottom: 93px;
+}
+
+.btn{
+    background-color: #ecac2e;
+    color: #000;
+    font-weight: 800;
+    width: 236px;
+    padding: 16px 0;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+
+}
+
+.btn:hover{
+    background-color: #d5920e;
+}
+
+
+.footer{
+    font-size: 11px;
+    background: #000;
+    color:#fff;
+}
+
