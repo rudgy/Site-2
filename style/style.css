@@ -8,3 +8,39 @@ body{
 div, a, span, button, p{
     box-sizing: border-box;
 }
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+p{
+    margin: 0;
+}
+
+section{
+    padding-top: 18px;
+}
+
+h1{
+    font-size: 37px;
+}
+.container{
+    width: 1172px;
+    margin: 0 auto;
+}
+
+.header{
+    background: url("../img/background.jpg") no-repeat center top;
+    padding-top: 47px;
+    padding-bottom: 310px;
+}
+
+.offer{
+    margin-top: 247px;
+}
+
+.offer p{
+    font-size: 20px;
+}
